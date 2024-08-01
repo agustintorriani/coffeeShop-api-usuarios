@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Proyecto Coffee",
   "main": "app.js",
+
   "scripts": {
-    "test": "jest --coverage --detectOpenHandles --watchAll",
+    "build": "tsc",                  
+    "dev": "ts-node-dev src/app.ts",  
     "start": "node /app.js"
   },
   "dependencies": {
